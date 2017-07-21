@@ -1,0 +1,9 @@
+{
+  "name": "azure-node-js",
+  "version": "0.0.0",
+  "description": "AzureNodeJs",
+  "main": "server.js",
+  "author": {
+    "name": "Ares"
+  }
+}

@@ -11,7 +11,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>6bff9ac0-8ac1-4fd2-9b31-2d5c23442013</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>01_FetchPage\app.js</StartupFile>
+    <StartupFile>05_SimulateFetchApi\app.js</StartupFile>
     <StartWebBrowser>False</StartWebBrowser>
     <SearchPath>
     </SearchPath>
@@ -29,12 +29,24 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="01_FetchPage\app.js" />
+    <Compile Include="03_Callbacks\app.js" />
+    <Compile Include="04_ReadFiles\app.js" />
+    <Compile Include="05_SimulateFetchApi\app.js" />
     <Compile Include="app.js" />
+    <Content Include="02_JsEvents\index.html" />
+    <Content Include="03_Callbacks\index2.html" />
+    <Content Include="03_Callbacks\index1.html" />
+    <Content Include="04_ReadFiles\file1.txt" />
+    <Content Include="04_ReadFiles\file2.txt" />
     <Content Include="package.json" />
     <Content Include="README.md" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="01_FetchPage\" />
+    <Folder Include="02_JsEvents\" />
+    <Folder Include="03_Callbacks\" />
+    <Folder Include="04_ReadFiles\" />
+    <Folder Include="05_SimulateFetchApi\" />
   </ItemGroup>
   <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="False" />
