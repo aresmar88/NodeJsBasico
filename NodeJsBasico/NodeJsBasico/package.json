@@ -1,0 +1,9 @@
+{
+  "name": "node-js-basico",
+  "version": "0.0.0",
+  "description": "NodeJsBasico",
+  "main": "app.js",
+  "author": {
+    "name": "Ares"
+  }
+}
