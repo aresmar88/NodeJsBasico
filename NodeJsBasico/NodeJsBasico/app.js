@@ -1,3 +1,1 @@
-'use strict';
-
-console.log('Hello world');
+console.log("Conociendo Node.Js");
